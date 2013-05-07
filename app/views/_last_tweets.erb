@@ -1,0 +1,14 @@
+<% if @new_user %>
+<img id="profile" src="<%=@profile_pic%>">
+<h1> <%= @new_user.username %>'s last 10 tweets </h1>
+<p><%=@description%></p>
+<ul>
+  <% @tweets.each do |t| %>
+  <li> <%= t.text %> <br> <br> </li>
+  <% end %>
+</ul>
+<a href="/">home</a>
+
+<% end %>
+
+

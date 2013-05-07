@@ -1,0 +1,8 @@
+<form id="get_tweets" action = "/last_tweets" method = "post">
+<input type="text" name="username" placeholder="username"><br>
+<input type="submit" value="show last 10 tweets">
+</form>
+
+<span id="populated_tweets"><%= erb :_last_tweets %></span>
+
+<span id="spinner"><img src="monkey.gif"></img></span>

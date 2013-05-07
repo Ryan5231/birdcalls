@@ -1,0 +1,70 @@
+.container h1{
+  text-align: center;
+}
+
+h1 {
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#profile {
+  margin-left: 240px;
+  height:100px;
+}
+
+p {
+  text-align:center;
+  color: whitesmoke;
+}
+
+li {
+  list-style-type: none
+}
+
+ul {
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 71%, rgba(255,255,255,0) 99%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(71%,rgba(255,255,255,1)), color-stop(99%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 71%,rgba(255,255,255,0) 99%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 71%,rgba(255,255,255,0) 99%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 71%,rgba(255,255,255,0) 99%,rgba(255,255,255,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 71%,rgba(255,255,255,0) 99%,rgba(255,255,255,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */  padding:20px;
+list-style-type: none}
+
+a {
+  text-decoration:none;
+  color:#EDFFFB;
+}
+
+a:hover {
+  text-decoration:underline;
+  color:white;
+}
+
+.container {
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+}
+
+#populated_tweets {
+/*  display: none;*/
+}
+
+#spinner {
+margin-left: 150px;
+  display: none;
+}
+
+.container form {
+  text-align: center;
+}
+
+th {
+  text-align: left;
+}
+
+body {
+  background-image:url("http://mywallshd.com/plog-content/images/1920x1200/1920x1200/black-wood-background-1920x1200.jpg");
+}
